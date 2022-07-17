@@ -33,7 +33,7 @@ git clone --branch=master https://github.com/Wang-Linqing/blog.git
 
 ```
 # 同步本地修改到服务器
-- 
+- push 到githhub的master
 ```
-
+git push origin master
 ```

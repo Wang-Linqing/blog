@@ -14,8 +14,16 @@
 - chmod +x ./file_name
 - chown -R root:root ./file_name
 # ls
-- ls -p
-- ls -l
+- 列表化显示文件
+```
+ls -l
+或者
+ll
+```
+- 显示所有文件
+```
+ls -a
+```
 # ln
 - ln -s source_dir shortcut_dir
 # useful config
