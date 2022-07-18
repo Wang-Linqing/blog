@@ -35,9 +35,13 @@ git rebase --continue
 
 ```
 # 提交修改
-- 
+- 提交修改 
 ```
-
+git commit -m "say something"
+```
+- 提交修改，与上一个commit修改合并
+```
+git commit --amend
 ```
 # 同步本地修改到服务器
 - push 到githhub的master
