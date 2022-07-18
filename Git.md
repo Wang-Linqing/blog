@@ -20,7 +20,14 @@ git clone --branch=master https://github.com/Wang-Linqing/blog.git
 # 撤销修改
 - 
 ```
-
+git reset --soft HEAD^
+```
+# 同步云端修改到本地
+```
+git pull --rebase
+发现冲突的地方后，进行修改，然后
+git add .
+git rebase --continue
 ```
 # 打包修改和应用修改
 - 
