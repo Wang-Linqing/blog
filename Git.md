@@ -47,4 +47,6 @@ git commit --amend
 - push 到githhub的master
 ```
 git push origin master
+
+git push origin master:refs/for/master
 ```
